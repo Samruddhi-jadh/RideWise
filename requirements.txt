@@ -8,5 +8,4 @@ joblib
 matplotlib
 plotly
 SpeechRecognition
-gtts
-base64
+gTTS
