@@ -57,9 +57,9 @@ BASE_DIR = Path(__file__).parent
 @st.cache_resource
 def load_model(mode: str):
     model_path = (
-        BASE_DIR / "models" / "bike_day_demand_model.pkl"
+        BASE_DIR / "Models" / "bike_day_demand_model.pkl"
         if mode == "Day"
-        else BASE_DIR / "models" / "bike_hour_demand_model.pkl"
+        else BASE_DIR / "Models" / "bike_hour_demand_model.pkl"
     )
 
     if not model_path.exists():
@@ -664,6 +664,7 @@ st.caption(
     "Day R² ≈ 0.75 | Hour R² ≈ 0.88 | "
     "Feature-aligned Production ML System"
 )
+
 
 
 
