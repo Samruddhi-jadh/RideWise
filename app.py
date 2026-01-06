@@ -61,7 +61,6 @@ def load_model(mode: str):
         if mode == "Day"
         else BASE_DIR / "Models" / "bike_hour_demand_model.pkl"
     )
-
     if not model_path.exists():
         st.error(f"❌ Model not found: {model_path}")
         st.stop()
@@ -664,6 +663,7 @@ st.caption(
     "Day R² ≈ 0.75 | Hour R² ≈ 0.88 | "
     "Feature-aligned Production ML System"
 )
+
 
 
 
