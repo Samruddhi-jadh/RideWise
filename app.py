@@ -36,7 +36,7 @@ st.markdown(
     """
     <h1 style="text-align:center; font-weight:700;">
         <span style="color:#58c472;">🚲 RideWise</span>
-        <span style="color:#000000;">— AI Bike Demand Forecast</span>
+        <span style="color:#ffffff;">— AI Bike Demand Forecast</span>
     </h1>
     <p style='text-align:center; color:#6c757d; font-size:16px;'>
         Smart, data-driven bike rental demand forecasting using production-grade machine learning
